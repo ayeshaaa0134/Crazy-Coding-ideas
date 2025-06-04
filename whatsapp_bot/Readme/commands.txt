@@ -1,0 +1,10 @@
+# Set up project folder
+mkdir whatsapp-bot
+cd whatsapp-bot
+npm init -y
+
+# Install required libraries
+npm install whatsapp-web.js qrcode-terminal mysql
+
+# Start your bot
+node index.js

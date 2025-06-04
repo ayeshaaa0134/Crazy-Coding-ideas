@@ -1,0 +1,66 @@
+✅ WhatsApp Bot with MySQL Setup – Step-by-Step Guide
+✅ 1. Install MySQL Server + MySQL Workbench
+📦 Needed to store and manage data for your bot (like messages, users, etc.)
+
+Download from:
+👉 https://dev.mysql.com/downloads/installer/
+
+During install:
+✔ Install:
+
+MySQL Server
+
+MySQL Workbench
+
+MySQL Shell (optional)
+
+After install:
+📌 Remember your root password (used later to connect Node.js to MySQL)
+
+✅ 2. Install Node.js + npm
+📦 Node.js runs your WhatsApp bot; npm is used to install libraries.
+
+Download from:
+👉 https://nodejs.org/en/download
+
+Choose the LTS version (most stable)
+
+✔ During install, make sure these options are checked:
+
+✔ Node.js runtime
+
+✔ npm package manager
+
+✔ Add to PATH
+
+✔ Automatically install build tools (optional, can skip if not needed)
+
+Check installation:
+
+node -v
+npm -v
+✅ 3. Create and Set Up Your Project
+📁 This is where your bot’s files will live.
+
+
+mkdir whatsapp-bot
+cd whatsapp-bot
+npm init -y         # Creates package.json
+✅ 4. Install WhatsApp Automation Libraries
+
+npm install whatsapp-web.js qrcode-terminal mysql
+whatsapp-web.js: Main WhatsApp automation library
+
+qrcode-terminal: Shows the QR code in your terminal to log into WhatsApp
+
+mysql: Node.js MySQL client to connect to your MySQL server
+
+✅ 5. Create Your App Entry File
+📄 Create a file named index.js  and add code  file there
+✅ 6. Run Your Bot
+This command starts your bot:
+
+node index.js
+📷 Scan the QR code that appears using WhatsApp Web on your phone.
+
+for your ease sql setup manual is alos attached and all of the .msi files are also attached with it follow them for more guidance 
